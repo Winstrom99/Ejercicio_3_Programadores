@@ -34,6 +34,22 @@ public class Calculator {
         double resultMul = num5 * num6;
         System.out.println("El resultado de la multiplicación es: " + resultMul);
 
+        System.out.println("Ingrese el primer número para la división:");
+        while (!scanner.hasNextDouble()) {
+            System.out.println("Entrada inválida. Por favor, ingrese un número:");
+            scanner.next();
+        }
+        double num7 = scanner.nextDouble();
+
+        System.out.println("Ingrese el segundo número para la división:");
+        while (!scanner.hasNextDouble()) {
+            System.out.println("Entrada inválida. Por favor, ingrese un número:");
+            scanner.next();
+        }
+        double num8 = scanner.nextDouble();
+
+
+
 
     }
 }
