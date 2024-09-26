@@ -6,8 +6,7 @@ public class Calculator {
         // Código inicial que será ampliado por los desarrolladores
         System.out.println("Bienvenido a la Calculadora Básica.");
         scanner.close();
-
-        // Dentro del método main, después de la bienvenida
+        
         System.out.println("Ingrese el primer número para la suma:");
         double num1 = scanner.nextDouble();
 
@@ -25,6 +24,15 @@ public class Calculator {
 
         double resultSub = num3 - num4;
         System.out.println("El resultado de la resta es: " + resultSub);
+
+        System.out.println("Ingrese el primer número para la multiplicación:");
+        double num5 = scanner.nextDouble();
+
+        System.out.println("Ingrese el segundo número para la multiplicación:");
+        double num6 = scanner.nextDouble();
+
+        double resultMul = num5 * num6;
+        System.out.println("El resultado de la multiplicación es: " + resultMul);
 
 
     }
